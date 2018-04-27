@@ -1,0 +1,23 @@
+{
+  "name": "structuredinformation_course_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DACUS1995/StructuredInformation-Course-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DACUS1995/StructuredInformation-Course-Project/issues"
+  },
+  "homepage": "https://github.com/DACUS1995/StructuredInformation-Course-Project#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "bulma": "^0.7.1"
+  }
+}

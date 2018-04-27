@@ -1,0 +1,49 @@
+#navbar {
+    width:100%;
+}
+
+#header{
+    background-color: rgb(0, 209, 178);
+}
+
+.catalog-element{
+    width:100%;
+    max-width:300px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 40px;
+}
+
+.catalog-element-image{
+    width:100%;
+    max-width:300px;
+}
+
+.descriptive-section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-body{
+    margin-top: 10px;
+    background: radial-gradient(80% 300%, white, rgb(0, 209, 178));
+    
+}
+
+#body{
+    background: rgb(104, 226, 208);
+}
+
+.nav-button{
+    color: rgb(237, 60, 60) !important;
+    font-weight: bold;
+}
+
+.contact{
+    border-left: 5px solid rgba(237, 60, 60, 0.597);
+    border-left-style:groove;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(237, 60, 60);
+}
