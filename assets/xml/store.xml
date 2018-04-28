@@ -7,7 +7,7 @@
         <origin_country>Germany</origin_country>
         <number_of_employees>2000</number_of_employees>
         <owner>Name</owner>
-        <image_logo>../images/Mercedes/logo.jpg</image_logo>
+        <image_logo>./assets/images/Mercedes/logo.jpg</image_logo>
         <car_models>
             <model>
                 <name>A-Class</name>
@@ -16,7 +16,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/Mercedes/car-a.jpg</image>
+                <image>./assets/images/Mercedes/car-a.jpg</image>
             </model>
             <model>
                 <name>A-Class</name>
@@ -25,7 +25,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/Mercedes/car-a.jpg</image>
+                <image>./assets/images/Mercedes/car-a.jpg</image>
             </model>
             <model>
                 <name>A-Class</name>
@@ -34,7 +34,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/Mercedes/car-a.jpg</image>
+                <image>./assets/images/Mercedes/car-a.jpg</image>
             </model>
             <model>
                 <name>A-Class</name>
@@ -43,7 +43,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/Mercedes/car-a.jpg</image>
+                <image>./assets/images/Mercedes/car-a.jpg</image>
             </model>
         </car_models>
     </brand>
@@ -53,7 +53,7 @@
         <origin_country>Germany</origin_country>
         <number_of_employees>2001</number_of_employees>
         <owner>Name2</owner>
-        <image_logo>../images/BMW/logo.jpg</image_logo>        
+        <image_logo>./assets/images/BMW/logo.jpg</image_logo>        
         <car_models>
             <model>
                 <name>M5</name>
@@ -62,7 +62,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/BMW/car-m5.jpg</image>
+                <image>./assets/images/BMW/car-m5.jpg</image>
             </model>
             <model>
                 <name>M3</name>
@@ -71,7 +71,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/BMW/car-m5.jpg</image>
+                <image>./assets/images/BMW/car-m5.jpg</image>
             </model>
             <model>
                 <name>M4</name>
@@ -80,7 +80,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/BMW/car-m5.jpg</image>
+                <image>./assets/images/BMW/car-m5.jpg</image>
             </model>
             <model>
                 <name>M3</name>
@@ -89,7 +89,7 @@
                 <length unit="meters">4.419</length>
                 <max_speed>260</max_speed>
                 <number_of_doors>4</number_of_doors>
-                <image>../images/BMW/car-m5.jpg</image>
+                <image>./assets/images/BMW/car-m5.jpg</image>
             </model>
         </car_models>
     </brand>

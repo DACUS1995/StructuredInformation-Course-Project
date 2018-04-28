@@ -26,7 +26,7 @@
                 <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#vendors">Vendors</a>
             </div>
             <div class="column">
-                <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#components">Components</a>
+                <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#components">Overview</a>
             </div>
             <div class="column contact">
                 <span>Phone: 072666666</span>
@@ -70,11 +70,11 @@
     <div class="container main-body">
         <section id="catalog" class="section">
             <div class="description-section">
-                <h3 class="title is-3 insetshadow">Catalog Section</h3>
+                <h3 class="title is-3 insetshadow">Catalog</h3>
                 <p class="subtitle is-5 sub-title" style="text-align: center;">This is a catalog with all available car models</p>
             </div>
-            <div id="catalog columns is-multiline is-centered">
-                <div class="card catalog-element">
+            <div id="catalog-container" class="columns is-mobile is-multiline is-centered">
+                <div class="card catalog-element column is-narrow">
                     <div class="card-image">
                         <figure class="image">
                             <img src="./assets/images/car_1.jpg" alt="Placeholder image">
@@ -82,23 +82,18 @@
                     </div>
                     <div class="card-content">
                         <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-48x48">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
                             <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
+                                <p class="title is-4">Model A</p>
+                                <p class="subtitle is-6">BMW</p>
                             </div>
                         </div>
-                      
                         <div class="content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <div>Type: Sedan</div>
+                            <div>Number of doors: 4</div>
+                            <div>Maximum speed: 260</div>
+                            <div>Length: 1000</div>
+                            <div>Width: 2000</div>
                             <br>
-                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                         </div>
                     </div>
                 </div>       
@@ -107,15 +102,21 @@
         <hr>
         <section id="vendors" class="section">
             <div class="description-section">
-                <h3 class="title is-3 insetshadow">Vendors Section</h3>
+                <h3 class="title is-3 insetshadow">Vendors</h3>
                 <p class="subtitle is-5 sub-title" style="text-align: center;">List of vendors that have a partnership with us</p>
             </div>
+            <div id="vendor-container" class="columns is-mobile is-multiline is-centered">
+                
+            </div>            
         </section>
         <hr>
         <section id="components" class="section">
             <div class="description-section">
-                <h3 class="title is-3 insetshadow">Components Section</h3>
-                <p class="subtitle is-5 sub-title"  style="text-align: center;">Available Components</p>
+                <h3 class="title is-3 insetshadow">Overview</h3>
+                <p class="subtitle is-5 sub-title"  style="text-align: center;"></p>
+            </div>
+            <div id="overview-container" class="columns is-mobile is-multiline is-centered">
+                
             </div>
         </section>
     </div>
@@ -123,6 +124,17 @@
         <div class="container">
         </div>
     </footer>
+
+    <!-- TEMPLATES -->
+    <template id="template-car-model">
+        <div class="card catalog-element column is-narrow">
+        </div>       
+    </template>
+
+    <template id="template-vendors">
+        <div class="card catalog-element column is-narrow">
+        </div>       
+    </template>
 
     <script type="module">
         import init from "./assets/js/index.js"
