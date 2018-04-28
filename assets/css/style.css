@@ -128,6 +128,10 @@
     display: none;
 }
 
+.sub-title{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;    
+}
+
 
 h3 {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -153,7 +157,7 @@ h3 {
   h3.insetshadow {
     border-radius: 10px;
     color: #202020;
-    background: radial-gradient(80% 300%, rgb(89, 83, 83), #202020);
+    background: radial-gradient(80% 300%, rgb(24, 18, 148)5), #22b0b5);
     letter-spacing: .1em;
     text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
   }
