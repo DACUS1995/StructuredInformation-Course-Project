@@ -13,14 +13,14 @@
     <nav id="header">
         <div class="columns is-gapless">
             <div class="column">
-                <a href="#Catalog">
+                <a href="#catalog">
                     <figure class="image" style="margin: auto;">
                         <img src="./assets/images/logo.png" alt="Placeholder image">
                     </figure>
                 </a>        
             </div>
             <div class="column">
-                <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#Catalog">Catalog</a>        
+                <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#catalog">Catalog</a>        
             </div>
             <div class="column">
                 <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#vendors">Vendors</a>
@@ -35,11 +35,43 @@
             </div>
         </div>
     </nav>
+    <!-- The Modal -->
+    <div id="loading-modal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+		  	<div class="modal-header">
+				<span class="close">&times;</span>
+		   	 	<h2>Information Loader</h2>
+		  	</div>
+		  	<div class="modal-body">
+				<p style>First you muse select the XML file that contains the informations.</p>
+		    	<div class="file has-name is-fullwidth">
+					<label class="file-label">
+						<input id="xml-file-selector" class="file-input" type="file" name="resume">
+						<span class="file-cta">
+							<span class="file-label">
+								Choose a file…
+							</span>
+						</span>
+						<span id="file-name-label" class="file-name">
+							No File Selected
+						</span>
+						<span>
+							<button id="load-button" class="button is-info">Load</button>
+						</span>
+					</label>
+				</div>
+		  	</div>
+		  	<div class="modal-footer">
+		    	<h4>Powered by SpeedQueen</h3>
+		  	</div>
+		</div>
+    </div>
     <div class="container main-body">
         <section id="catalog" class="section">
             <div class="description-section">
-                <h3 class="title is-3">Catalog Section</h3>
-                <p class="subtitle is-5">This is a catalog with all available car models</p>
+                <h3 class="title is-3 insetshadow">Catalog Section</h3>
+                <p class="subtitle is-5" style="text-align: center;">This is a catalog with all available car models</p>
             </div>
             <div id="catalog columns is-multiline is-centered">
                 <div class="card catalog-element">
@@ -75,15 +107,15 @@
         <hr>
         <section id="vendors" class="section">
             <div class="description-section">
-                <h3 class="title is-3">Vendors Section</h3>
-                <p class="subtitle is-5">List of vendors that have a partnership with us</p>
+                <h3 class="title is-3 insetshadow">Vendors Section</h3>
+                <p class="subtitle is-5" style="text-align: center;">List of vendors that have a partnership with us</p>
             </div>
         </section>
         <hr>
         <section id="components" class="section">
             <div class="description-section">
-                <h3 class="title is-3">Components Section</h3>
-                <p class="subtitle is-5">Available Components</p>
+                <h3 class="title is-3 insetshadow">Components Section</h3>
+                <p class="subtitle is-5"  style="text-align: center;">Available Components</p>
             </div>
         </section>
     </div>

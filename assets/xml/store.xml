@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding = "UTF-8" standalone = "no" ?>
+<!DOCTYPE brands SYSTEM "store.dtd">
+<brands>
+    <brand>
+        <brand_name>Mercedes</brand_name>
+        <worth>1</worth>
+        <origin_country>Germany</origin_country>
+        <number_of_employees>2000</number_of_employees>
+        <owner>Name</owner>
+        <image_logo>../images/Mercedes/logo.jpg</image_logo>
+        <car_models>
+            <model>
+                <name>A-Class</name>
+                <type>Hatchback</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/Mercedes/car-a.jpg</image>
+            </model>
+            <model>
+                <name>A-Class</name>
+                <type>Hatchback</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/Mercedes/car-a.jpg</image>
+            </model>
+            <model>
+                <name>A-Class</name>
+                <type>Hatchback</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/Mercedes/car-a.jpg</image>
+            </model>
+            <model>
+                <name>A-Class</name>
+                <type>Hatchback</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/Mercedes/car-a.jpg</image>
+            </model>
+        </car_models>
+    </brand>
+    <brand>
+        <brand_name>BMW</brand_name>
+        <worth>2</worth>
+        <origin_country>Germany</origin_country>
+        <number_of_employees>2001</number_of_employees>
+        <owner>Name2</owner>
+        <image_logo>../images/BMW/logo.jpg</image_logo>        
+        <car_models>
+            <model>
+                <name>M5</name>
+                <type>sedan</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/BMW/car-m5.jpg</image>
+            </model>
+            <model>
+                <name>M3</name>
+                <type>sedan</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/BMW/car-m5.jpg</image>
+            </model>
+            <model>
+                <name>M4</name>
+                <type>sedan</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/BMW/car-m5.jpg</image>
+            </model>
+            <model>
+                <name>M3</name>
+                <type>sedan</type>
+                <width unit="meters">1.992</width>
+                <length unit="meters">4.419</length>
+                <max_speed>260</max_speed>
+                <number_of_doors>4</number_of_doors>
+                <image>../images/BMW/car-m5.jpg</image>
+            </model>
+        </car_models>
+    </brand>
+</brands>

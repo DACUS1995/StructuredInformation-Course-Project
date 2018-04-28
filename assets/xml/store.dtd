@@ -1,0 +1,22 @@
+<!DOCTYPE brands
+[
+<!ELEMENT brands (brand)*>
+<!ELEMENT brand (brand_name,worth,origin_country,number_of_employees,owner, image_logo,car_models)>
+<!ELEMENT brand_name (#PCDATA)>
+<!ELEMENT worth (#PCDATA)>
+<!ELEMENT origin_country (#PCDATA)>
+<!ELEMENT number_of_employees (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ELEMENT image_logo (#PCDATA)>
+<!ELEMENT car_models (model)*>
+<!ELEMENT model (name,type,width,length,max_speed,number_of_doors,image)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT width (#PCDATA)>
+<!ATTLIST width unit CDATA "meters">
+<!ELEMENT length (#PCDATA)>
+<!ATTLIST length unit CDATA "meters">
+<!ELEMENT max_speed (#PCDATA)>
+<!ELEMENT number_of_doors (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+]>
