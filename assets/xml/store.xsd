@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="brands">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="brand"/>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="brand_name"/>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Audi"/>
+                                        <xs:enumeration value="Mercedes"/>
+                                        <xs:enumeration value="BMW"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            <xs:element name="worth" type="xs:integer"/>
+                            <xs:element name="origin_country" type="xs:string"/>
+                            <xs:element name="number_of_employees" type="xs:integer"/>
+                            <xs:element name="image_logo" type="xs:string"/>
+                            <xs:element name="car_models"/>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="model">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="name" type="xs:string"/>
+                                                <xs:element name="type" type="xs:string"/>
+                                                <xs:element name="width" type="xs:integer"/>
+                                                <xs:element name="length" type="xs:integer"/>
+                                                <xs:element name="max_speed" type="xs:integer"/>
+                                                    <xs:simpleType name="max_speed">
+                                                        <xs:restriction base="xs:integer">
+                                                            <xs:minInclusive value="0"/>
+                                                            <xs:maxInclusive value="400"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                <xs:element name="number_of_doors" type="xs:string"/>
+                                                <xs:element name="image" type="xs:string"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:complexType name="newModel">
+                                        <xs:complexContent>
+                                            <xs:extension>
+                                                <xs:sequence>
+                                                    <xs:element name="color" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:extension>
+                                        </xs:complexContent>
+                                    </xs:complexType>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

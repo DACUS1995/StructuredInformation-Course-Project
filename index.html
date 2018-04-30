@@ -26,7 +26,7 @@
                 <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#vendors">Vendors</a>
             </div>
             <div class="column">
-                <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#components">Overview</a>
+                <a class="button is-primary is-large is-focused is-fullwidth nav-button" href="#overview">Overview</a>
             </div>
             <div class="column contact">
                 <span>Phone: 072666666</span>
@@ -110,10 +110,26 @@
             </div>            
         </section>
         <hr>
-        <section id="components" class="section">
+        <section id="overview" class="section">
             <div class="description-section">
                 <h3 class="title is-3 insetshadow">Overview</h3>
                 <p class="subtitle is-5 sub-title"  style="text-align: center;"></p>
+            </div>
+            <div class="file has-name is-fullwidth">
+                <label class="file-label">
+                    <input id="xls-file-selector" class="file-input" type="file" name="resume">
+                    <span class="file-cta">
+                        <span class="file-label">
+                            Choose a file…
+                        </span>
+                    </span>
+                    <span id="xls-name-label" class="file-name">
+                        No File Selected
+                    </span>
+                    <span>
+                        <button id="xls-load-button" class="button is-info">Load</button>
+                    </span>
+                </label>
             </div>
             <div id="overview-container" class="columns is-mobile is-multiline is-centered">
                 
@@ -132,6 +148,11 @@
     </template>
 
     <template id="template-vendors">
+        <div class="card catalog-element column is-narrow">
+        </div>       
+    </template>
+
+    <template id="template-overview">
         <div class="card catalog-element column is-narrow">
         </div>       
     </template>

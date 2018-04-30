@@ -89,7 +89,7 @@ class XMLLoader
     _updateInterface(objCars, objBrands)
     {
         this._arrSectionComponents.forEach((section) => {
-            section.updateSection(objCars, objBrands);
+            section.updateSection(objCars, objBrands, this._DOMDocument);
         });
     }
 

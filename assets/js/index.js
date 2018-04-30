@@ -1,6 +1,8 @@
-import XMLLoader from "./XMLLoader.js"
+import XMLLoader from "./XMLLoader.js";
+
 import CatalogSection from "./CatalogSection.js";
 import VendorsSection from "./VendorsSection.js";
+import OverviewSection from "./OverviewSection.js";
 
 function init()
 {
@@ -10,7 +12,8 @@ function init()
     // Load the page components
     objXMLLoader.setComponents(
         new CatalogSection(),
-        new VendorsSection()
+        new VendorsSection(),
+        new OverviewSection()
     );
 
     objXMLLoader.triggerModal();
