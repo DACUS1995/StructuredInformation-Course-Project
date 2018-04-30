@@ -27,26 +27,25 @@ class OverviewSection extends SectionComponentBase
         const elButtonLoadXSL = document.getElementById("xls-load-button");
         const reader = new FileReader();
 
+        const self = this;
+
         elXLSFileSelector.addEventListener("change", function(){
             console.log("::Loaded XSL File");
-            this._selectedFile = this.files[0];
+            self._selectedFile = this.files[0];
 
-            document.getElementById("xls-name-label").innerText = this._selectedFile.name;
+            document.getElementById("xls-name-label").innerText = self._selectedFile.name;
             // TODO make load button visible only after we select a xsl file
         });
 
 
         elButtonLoadXSL.addEventListener("click", () => {
-            console.log(this._selectedFile);
             if(this._selectedFile != null)
             {
-                console.log("hereeweqweqweqe");
-                
                 reader.readAsText(this._selectedFile);
                 reader.onload = (e) => {
                     this._strXSLFile = e.target.result;
 
-                    console.log(`::Loaded file ${this._selectedFile.name}.`);
+                    console.log(`::Loaded file ${this._selectedFile}.`);
                     this._generateElement(objBrands, elOverviewContainer);
                 };
             }
