@@ -34,7 +34,6 @@ class OverviewSection extends SectionComponentBase
             self._selectedFile = this.files[0];
 
             document.getElementById("xls-name-label").innerText = self._selectedFile.name;
-            // TODO make load button visible only after we select a xsl file
         });
 
 
@@ -44,6 +43,9 @@ class OverviewSection extends SectionComponentBase
                 reader.readAsText(this._selectedFile);
                 reader.onload = (e) => {
                     this._strXSLFile = e.target.result;
+                                        
+                    const elDivXLSFileSelectorContainer = document.getElementById("xsl-input-container");
+                    elDivXLSFileSelectorContainer.style.display = "none";
 
                     console.log(`::Loaded file ${this._selectedFile}.`);
                     this._generateElement(objBrands, elOverviewContainer);
@@ -65,7 +67,6 @@ class OverviewSection extends SectionComponentBase
         xsltProcessor.importStylesheet(this._XSLDOMDocument);
 
         const resultDocument = xsltProcessor.transformToFragment(this._XMLDOMDocument, document);
-
         elContainer.appendChild(resultDocument);
     }
 }
